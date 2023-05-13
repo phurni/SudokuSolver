@@ -1,0 +1,26 @@
+# from https://www.top-sudoku.com/alphadoku/fr/imprimer-une-grille-alphadoku.php?id=1211
+ G VCUB TPR EXOIA  Y HKJ 
+ S   O KV AH   MU  P    N
+  KN   R AL  Y C QW M   U
+EYB QM W HI JU  KS L     
+RAUD GQ      T  X V  LWPO
+ E G TF P  YALJ    K X  S
+ FR T   BGEVKQ S XJC    D
+  SY V E     RCG P B  OFJ
+L    D   SFTG N  VO C  HB
+BVCJDLRM     OHW  YAP  G 
+VCW PAYFH  ET     SD Q OL
+A  U  C  XYJ  V   KFNDMW 
+H D JPL K   N   G IVF C E
+ LGENSM   C  IXQ  A  V  T
+KB F EW     SH  TCMUY PAG
+ K  VIU  DHQ     FTEOPLSX
+QT  U GP  V RDFN   I    A
+IPH  X Q ENM     B J RU  
+G    HTN J IUEAVP   W FQ 
+D  L K    OPXJ  M QH C N 
+FNEB  K G  X      PM YSRW
+     W UY  LH RF I GV NXP
+U   I PH O G  YD K   FT  
+S    J  EF   MK RN Q   L 
+ RPO N  QMDUC EAY XWJI K 
