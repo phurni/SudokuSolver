@@ -16,4 +16,8 @@ class SudokuBoard
       yield column_index, row_index if value == @free_value
     end
   end
+
+  def to_external(value)
+    value == @free_value ? ' ' : value.to_s
+  end
 end

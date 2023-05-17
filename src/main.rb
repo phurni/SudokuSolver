@@ -32,8 +32,8 @@ solver_class = Object.const_get(options[:solver_class])
 board_class = Object.const_get(options[:board_class])
 
 def from_file(board, filepath)
-  value_line_matcher = Regexp.new(board.possible_values.map {|value| Regexp.escape(value.to_s) }.join('|'))
-  value_extractor = /(#{value_line_matcher}|#{Regexp.escape(board.free_value)})/
+  value_line_matcher = Regexp.new(board.possible_values.map {|value| Regexp.escape(board.to_external(value)) }.join('|'))
+  value_extractor = /(#{value_line_matcher}|#{Regexp.escape(board.to_external(board.free_value))})/
 
   File.readlines(filepath).filter_map do |line|
     next if line =~ /^\s*#/
@@ -51,7 +51,7 @@ def print_board(board)
       board.dimension.times do |block_column_index|
         board.dimension.times do |element_column_index|
           value = board[block_column_index*board.dimension+element_column_index, block_row_index*board.dimension+element_row_index]
-          print value == board.free_value ? ' ' : value.to_s
+          print board.to_external(value)
         end
         print '|'
       end
